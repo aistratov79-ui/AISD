@@ -4,7 +4,7 @@ def SelectionSort(A):
         key = A[i]
         ind = i
         for j in range(i + 1, n):
-            if A[j] > key:
+            if A[j] < key:
                 key = A[j]
                 ind = j
         if i != ind:
